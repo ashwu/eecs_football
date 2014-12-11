@@ -1,14 +1,20 @@
 $(document).ready(function(){
 
-	$(".icon").hover(function(){
-		$(".icon").attr("src", "images/helmetcolor.png");
+	$("#helmet").hover(function(){
+		$("#helmet").attr("src", "images/helmetcolor.png");
 	});
 
-	$(".icon").mouseleave(function(){
-		$(".icon").attr("src", "images/helmet.png");
+	$("#helmet").mouseleave(function(){
+		$("#helmet").attr("src", "images/helmet.png");
 	});
 
-	$(".icon").click(function(){
-		$("#helmet-timeline").toggle();
-	})
+	$("#ball").hover(function(){
+		$("#ball").attr("src", "images/footballcolor.png");
+	});
+
+	$("#ball").mouseleave(function(){
+		$("#ball").attr("src", "images/football.png");
+	});
+
+
 });
