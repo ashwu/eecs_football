@@ -33,18 +33,26 @@ $(document).ready(function(){
 
 	//cleats
 	$("#cleats").hover(function(){
-		$("#cleats").attr("src", "images/helmetcolor.png");
+		$("#cleats").attr("src", "images/cleatscolor.png");
 	});
 
 	$("#cleats").mouseleave(function(){
-		$("#cleats").attr("src", "images/helmet.png");
+		$("#cleats").attr("src", "images/cleats.png");
 	});
 
 	//click me too function!
 	$(".entypo-plus-squared").click(function(){
 		$("#blurb").slideToggle();
-		// $("#open").removeClass();
-		// $("#open").addClass("entypo-cancel-squared");
+
+		//change the click button
+		if ($("#open").hasClass("entypo-plus-squared")) {
+			$("#open").removeClass("entypo-plus-squared");
+			$("#open").addClass("entypo-cancel-squared");
+		} else {
+			$("#open").removeClass("entypo-cancel-squared");
+			$("#open").addClass("entypo-plus-squared");
+		}
+			
 	});
 	
 
