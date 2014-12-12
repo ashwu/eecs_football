@@ -40,6 +40,14 @@ $(document).ready(function(){
 		$("#cleats").attr("src", "images/helmet.png");
 	});
 
+	//click me too function!
+	$(".entypo-plus-squared").click(function(){
+		$("#blurb").slideToggle();
+		// $("#open").removeClass();
+		// $("#open").addClass("entypo-cancel-squared");
+	});
+	
+
 	//when each icon is clicked:
 
 	$("#helmet").click(function(){	

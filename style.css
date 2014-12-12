@@ -1,7 +1,7 @@
 @import url(http://weloveiconfonts.com/api/?family=entypo);
 
 /* entypo */
-[class*="entypo-"]:before {
+[class*="entypo-"] {
   font-family: 'entypo', sans-serif;
   font-size:30px;
   color:#676767;
@@ -15,7 +15,7 @@ body{
 h1{
 	text-align:center;
 	font-family:"Oswald";
-	font-size:76px;
+	font-size:79px;
 	letter-spacing:1px;
 	margin:0;
 	padding: 25px 0 25px 0;
@@ -81,6 +81,29 @@ h2{
 	text-align: center;
 	margin: 5px 0 0 5px;
 	letter-spacing: 0.5px
+}
+
+#field{
+	width:7%;
+	padding:15px;
+	position:absolute;
+}
+
+#field p{
+	font-size:12.5px;
+	font-family:"Open Sans";
+	color:#676767;
+	margin:0;
+}
+
+#blurb{
+	display:none;
+	font-size:13px;
+	font-family:"Open Sans";
+	color:#676767;
+	margin:10px 0 0 0;
+	border: 1px dotted #676767;
+	padding:5px;
 }
 
 .timeline-icon{
