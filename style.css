@@ -19,6 +19,7 @@ h1{
 	letter-spacing:1px;
 	margin:0;
 	padding: 25px 0 25px 0;
+	opacity: 0.7;
 }
 
 .info{
@@ -47,7 +48,7 @@ h1{
 }
 
 #all-gear{
-	width: 65%;
+	width: 85%;
 	margin: 0 auto;
 	text-align:center;
 }
@@ -67,7 +68,7 @@ h1{
 
 #helmet-timeline, #ball-timeline, #pads-timeline, #cleats-timeline{
 	display:none;
-	width: 70%;
+	width: 80%;
 	margin: 0 auto;
 	padding: 3px 0 0 0;
 	border-top: 2px dotted #939598;

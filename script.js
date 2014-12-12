@@ -24,11 +24,11 @@ $(document).ready(function(){
 
 	//pads
 	$("#pads").hover(function(){
-		$("#pads").attr("src", "images/footballcolor.png");
+		$("#pads").attr("src", "images/padcolor.png");
 	});
 
 	$("#pads").mouseleave(function(){
-		$("#pads").attr("src", "images/football.png");
+		$("#pads").attr("src", "images/pad.png");
 	});
 
 	//cleats
