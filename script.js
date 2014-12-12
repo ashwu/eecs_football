@@ -82,9 +82,5 @@ $(document).ready(function(){
 	$("#hero").mouseleave(function(){
 		$("#hero").trigger("stopRumble");
 	});
-
-
- 	var hero = $("#hero").length(); 
-
 			
 });
