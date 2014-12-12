@@ -1,55 +1,84 @@
+@import url(http://weloveiconfonts.com/api/?family=entypo);
+
+/* entypo */
+[class*="entypo-"]:before {
+  font-family: 'entypo', sans-serif;
+  font-size:30px;
+  color:#676767;
+}
+
 body{
-	background-color: #d8d8d8;
+	/*background-color: #d8d8d8;*/
+	background-image: url('images/field.png');
 }
 
 h1{
 	text-align:center;
 	font-family:"Oswald";
-	font-size:75px;
+	font-size:76px;
 	letter-spacing:1px;
 	margin:0;
 	padding: 25px 0 25px 0;
 }
 
 .info{
-	font-size:17.5px;
+	font-size:16px;
 	font-family:"Open Sans";
-	margin:0 300px 50px 300px;
-/*	text-align:center;*/
+	margin: 0 18% 60px 18%;
 	color:#676767;
 }
 
-#all-gear{
-	width:65%;
-	margin:0 auto;
+.click{
+	font-size:20px;
+	font-family:"Oswald";
+	text-transform: uppercase;
+	letter-spacing: 0.4px;
 	text-align:center;
-	padding-bottom:100px;
+	padding: 0 0 20px 0;
+}
+
+.label{
+	font-size:16px;
+	font-family:"Open Sans";
+	text-align: center;
+	color:#676767;
+	margin:10px 0 0 0;
+}
+
+#all-gear{
+	width: 65%;
+	margin: 0 auto;
+	text-align:center;
+}
+
+.two-column{
+	width: 23%;
+	float: left;
+	padding: 7px;
+	min-height:200px;
+	display:inline-block;
 }
 
 .icon{
 	padding: 20px 0 20px 0;
-}
-#helmet{
-	height: 300px;
+	height: 150px;
 }
 
-#ball{
-	height:225px;
-}
-
-#helmet-timeline, #ball-timeline{
+#helmet-timeline, #ball-timeline, #pads-timeline, #cleats-timeline{
+	display:none;
 	width: 70%;
 	margin: 0 auto;
 	padding: 3px 0 0 0;
-	border-top: 3px solid #939598;
+	border-top: 2px dotted #939598;
 	clear:both;
 }
 
 h2{
 	font-family: "Oswald";
-	font-size: 20px;
+	font-size: 16px;
 	text-align: center;
 	margin: 5px 0 0 5px;
+	letter-spacing: 0.5px
 }
 
 .timeline-icon{
@@ -67,6 +96,15 @@ h2{
 	font-family:"Open Sans";
 	font-size: 14px;
 	color:#676767;
+}
+
+#copyright{
+	font-family: "Open Sans";
+	font-size:12px;
+	color: #676767;
+	text-align: center;
+	padding: 225px 0 30px 0;
+	clear:both;
 }
 
 a{

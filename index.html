@@ -8,10 +8,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 <!--   fonts  -->
   <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,800,300|Oswald:700' rel='stylesheet' type='text/css'>
+<!-- styles -->
   <link rel="stylesheet" type="text/css" href="style.css" />
+<!--   script -->
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
   <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
   <script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
   <script type="text/javascript" src="script.js"></script>
+  <script type="text/javascript" src="js/jquery.jrumble.1.3.js"></script>
 </head>
 
 <body>
@@ -22,38 +26,74 @@
 
   <div id="intro">
     <p class="info"> 
-      Football started in the late 1800s, and as much as the sport itself has changed through the decades, the gear and equipment have evolved significantly as well. Let's take a look.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec at finibus ligula, auctor vehicula orci. Maecenas consequat dictum quam scelerisque tempus. Donec tempor eget nulla vitae rutrum. Sed eleifend euismod libero, non ullamcorper ipsum auctor a. Vivamus hendrerit, massa ut ullamcorper fringilla, lorem mauris euismod nisi, vel efficitur elit eros ut justo. Nulla sed fermentum nisl, in tempor turpis. Nullam interdum mollis ante, id tincidunt turpis luctus a. Nullam rhoncus quam vitae molestie efficitur. In volutpat justo in quam malesuada, eget tincidunt enim viverra. Nullam sit amet egestas neque.
+      Professional football started in the 1892, developed from traditional rugby. And as much as the sport itself has changed through the decades, the gear and equipment have evolved significantly as well. With both professional and intercollegiate football playoffs kicking in, it never hurts to know a few fun facts about the sport to add to the typical conversations.
     </p>
   </div>
 
 <!-- Links to Timeline -->
 
   <div id="all-gear">
-    <div class="row">
-      <div class="two-column">
-        <a href="#helmet-timeline"><img src="images/helmet.png" id="helmet" class="icon"></a>
-      </div>
-      <div class="two-column">
-        <a href="#ball-timeline"><img src="images/football.png" id="ball" class="icon"></a>
-      </div>
+    <p class="click">Click each icon below for a closer look.</p>
+    <div class="two-column">
+      <p class="label">BALL</p>
+      <img src="images/football.png" id="ball" class="icon">
     </div>
-    <div class="row">
-      <div class="two-column">
-        <a href="#helmet-timeline"><img src="images/helmet.png" id="helmet" class="icon"></a>
-      </div>
-      <div class="two-column">
-        <a href="#helmet-timeline"><img src="images/helmet.png" id="helmet" class="icon"></a>
-      </div>
+    <div class="two-column">
+      <p class="label">HELMET</p>
+      <img src="images/helmet.png" id="helmet" class="icon">
+    </div>
+    <div class="two-column">
+      <p class="label">PADS</p>
+      <img src="images/football.png" id="pads" class="icon">
+    </div>
+    <div class="two-column">
+      <p class="label">CLEATS</p>
+      <img src="images/helmet.png" id="cleats" class="icon">
     </div>
   </div>
-</div>
 
+<!--   timelines -->
+
+<!-- ball -->
+  <div id="ball-timeline">
+    <div class="time-container">
+      <h2>Early 1800s: "PIGSKINS"</h2>
+      <img src="images/pigskin.png" class="timeline-icon">
+      <p class="timeline-info">
+        Before early football evolved from rugby, pig bladders were inflated and used to make rugby balls. They were easy to obtain and sturdy enough to be thrown around. Inventor <a href="http://en.wikipedia.org/wiki/William_Gilbert_(rugby)">William Gilbert</a>, manufacturer of sporting goods, was the first to do this. Pig bladders were no longer as commonly used after the late 19th century as the popularity of intercollegiate football rose.
+      </p>
+    </div>
+    <div class="time-container">
+      <h2>1844 - 1860</h2>
+      <img src="images/pigskin.png" class="timeline-icon">
+      <p class="timeline-info">
+        During this time, people began making footballs with rubber and cowhide after the invention of vulcanized rubber by <a href="http://en.wikipedia.org/wiki/Charles_Goodyear">Charles Goodyear</a> back in 1839. This eliminated the disgusting task of inflating a pig's bladder, which often had to be done multiple times throughout a game.
+      </p>
+    </div>
+     <div class="time-container">
+      <h2>1938</h2>
+      <img src="images/pigskin.png" class="timeline-icon">
+      <p class="timeline-info">
+        This year, the <a href="http://en.wikipedia.org/wiki/Riddell">Ridell Company</a> based in Chicago, Illinois started making helmets out of plastic because it felt that it would be safer, lighter, stronger and more long lasting than leather. Plastic held its shape during collisions on the field. These helmest were more comfortable with padding to cushion the head during impact. There were also plastic face masks and a chin strap included, protecting more of the head.
+      </p>
+    </div>
+    <div class="time-container">
+      <h2>1940s - NOW</h2>
+      <img src="images/pigskin.png" class="timeline-icon">
+      <p class="timeline-info">
+        In the 1940s, the NFL required helmets on the field and almost every professional football player wore a plastic helmet by the 1950s. The last player to play without a helmet was <a href="http://www.cbssports.com/nfl/eye-on-football/24366564/remember-when-dick-plasman-was-last-player-to-forgo-a-helmet">Dick Plasman</a>, a running back for the Chicago Bears, in the 1940 NFL Championship game between the Bears and the Washington Redskins. Now, helmets have updated shock absorbers, padding, guards and pieces to protect the player from skull and brain damage.       
+      </p>
+    </div>
+    <div class="hide entypo-cancel-squared"></div>
+  </div>
+
+<!-- helmet -->
   <div id="helmet-timeline">
     <div class="time-container">
       <h2>1896</h2>
       <img src="images/threestrap.png" class="timeline-icon">
       <p class="timeline-info">
-        The first helmet was said to have been invented by <a href="http://en.wikipedia.org/wiki/George_Barclay_(sportsperson)">George Barclay</a>, a professional baseball and football player. It was constructed with three leather straps attached together to protect the ears and prevent <a href="http://en.wikipedia.org/wiki/Cauliflower_ear">cauliflower ears</a>. As expected, this version of the helmet didn't do much to prevent concussions or other head damage.
+        The first helmet was said to have been invented by <a href="http://en.wikipedia.org/wiki/George_Barclay_(sportsperson)" target="_blank">George Barclay</a>, a professional baseball and football player. It was constructed with three leather straps attached together to protect the ears and prevent <a href="http://en.wikipedia.org/wiki/Cauliflower_ear" target="_blank">cauliflower ears</a>. As expected, this version of the helmet didn't do much to prevent concussions or other head damage.
       </p>
     </div>
     <div class="time-container">
@@ -67,25 +107,59 @@
       <h2>1938</h2>
       <img src="images/firstplastic.png" class="timeline-icon">
       <p class="timeline-info">
-        This year, the <a href="http://en.wikipedia.org/wiki/Riddell">Ridell Company</a> based in Chicago, Illinois started making helmets out of plastic because it felt that it would be safer, lighter, stronger and more long lasting than leather. Plastic held its shape during collisions on the field. These helmest were more comfortable with padding to cushion the head during impact. There were also plastic face masks and a chin strap included, protecting more of the head.
+        This year, the <a href="http://en.wikipedia.org/wiki/Riddell" target="_blank">Ridell Company</a> based in Chicago, Illinois started making helmets out of plastic because it felt that it would be safer, lighter, stronger and more long lasting than leather. Plastic held its shape during collisions on the field. These helmest were more comfortable with padding to cushion the head during impact. There were also plastic face masks and a chin strap included, protecting more of the head.
       </p>
     </div>
     <div class="time-container">
       <h2>1940s - NOW</h2>
       <img src="images/helmetnow.png" class="timeline-icon">
       <p class="timeline-info">
-        In the 1940s, the NFL required helmets on the field and almost every professional football player wore a plastic helmet by the 1950s. The last player to play without a helmet was <a href="http://www.cbssports.com/nfl/eye-on-football/24366564/remember-when-dick-plasman-was-last-player-to-forgo-a-helmet">Dick Plasman</a>, a running back for the Chicago Bears, in the 1940 NFL Championship game between the Bears and the Washington Redskins. Now, helmets have updated shock absorbers, padding, guards and pieces to protect the player from skull and brain damage.       
+        In the 1940s, the NFL required helmets on the field and almost every professional football player wore a plastic helmet by the 1950s. The last player to play without a helmet was <a href="http://www.cbssports.com/nfl/eye-on-football/24366564/remember-when-dick-plasman-was-last-player-to-forgo-a-helmet" target="_blank">Dick Plasman</a>, a running back for the Chicago Bears, in the 1940 NFL Championship game between the Bears and the Washington Redskins. Now, helmets have updated shock absorbers, padding, guards and pieces to protect the player from skull and brain damage.       
       </p>
     </div>
+    <div class="hide entypo-cancel-squared"></div>
   </div>
 
-
-  <div id="ball-timeline">
+<!-- pads -->
+  <div id="pads-timeline">
     <div class="time-container">
-      <h2>1896</h2>
+      <h2>1800s: "Pigskins"</h2>
       <img src="images/pigskin.png" class="timeline-icon">
       <p class="timeline-info">
-        The first helmet was said to have been invented by <a href="http://en.wikipedia.org/wiki/George_Barclay_(sportsperson)">George Barclay</a>, a professional baseball and football player. It was constructed with three leather straps attached together to protect the ears and prevent <a href="http://en.wikipedia.org/wiki/Cauliflower_ear">cauliflower ears</a>. As expected, this version of the helmet didn't do much to prevent concussions or other head damage.
+        Before early football evolved from rugby, pig bladders were inflated and used to make rugby balls. They were easy to obtain and sturdy enough to be thrown around. Inventor <a href="http://en.wikipedia.org/wiki/William_Gilbert_(rugby)">William Gilbert</a>, manufacturer of sporting goods, was the first to do this. Pig bladders were no longer as commonly used after the late 19th century as the popularity of intercollegiate football rose.
+      </p>
+    </div>
+    <div class="time-container">
+      <h2>1915 - 1917</h2>
+      <img src="images/pigskin.png" class="timeline-icon">
+      <p class="timeline-info">
+        Around this time, helmets were made of padded leather and resembled aviators' helmets. In 1917, helmets were raised above the head to direct blows away from the head and allow for ventilation. These helmets still lacked face masks which didn't help prevent injuries. In addition, these helmets were uncomfortable because they absorbed a lot of heat. Starting in the 1920s, helmets were widely used in football for the first time.
+      </p>
+    </div>
+     <div class="time-container">
+      <h2>1938</h2>
+      <img src="images/pigskin.png" class="timeline-icon">
+      <p class="timeline-info">
+        This year, the <a href="http://en.wikipedia.org/wiki/Riddell">Ridell Company</a> based in Chicago, Illinois started making helmets out of plastic because it felt that it would be safer, lighter, stronger and more long lasting than leather. Plastic held its shape during collisions on the field. These helmest were more comfortable with padding to cushion the head during impact. There were also plastic face masks and a chin strap included, protecting more of the head.
+      </p>
+    </div>
+    <div class="time-container">
+      <h2>1940s - NOW</h2>
+      <img src="images/pigskin.png" class="timeline-icon">
+      <p class="timeline-info">
+        In the 1940s, the NFL required helmets on the field and almost every professional football player wore a plastic helmet by the 1950s. The last player to play without a helmet was <a href="http://www.cbssports.com/nfl/eye-on-football/24366564/remember-when-dick-plasman-was-last-player-to-forgo-a-helmet">Dick Plasman</a>, a running back for the Chicago Bears, in the 1940 NFL Championship game between the Bears and the Washington Redskins. Now, helmets have updated shock absorbers, padding, guards and pieces to protect the player from skull and brain damage.       
+      </p>
+    </div>
+    <div class="hide entypo-cancel-squared"></div>
+  </div>
+
+<!-- cleats -->
+  <div id="cleats-timeline">
+    <div class="time-container">
+      <h2>1896</h2>
+      <img src="images/threestrap.png" class="timeline-icon">
+      <p class="timeline-info">
+        The first helmet was said to have been invented by <a href="http://en.wikipedia.org/wiki/George_Barclay_(sportsperson)" target="_blank">George Barclay</a>, a professional baseball and football player. It was constructed with three leather straps attached together to protect the ears and prevent <a href="http://en.wikipedia.org/wiki/Cauliflower_ear" target="_blank">cauliflower ears</a>. As expected, this version of the helmet didn't do much to prevent concussions or other head damage.
       </p>
     </div>
     <div class="time-container">
@@ -99,17 +173,23 @@
       <h2>1938</h2>
       <img src="images/firstplastic.png" class="timeline-icon">
       <p class="timeline-info">
-        This year, the <a href="http://en.wikipedia.org/wiki/Riddell">Ridell Company</a> based in Chicago, Illinois started making helmets out of plastic because it felt that it would be safer, lighter, stronger and more long lasting than leather. Plastic held its shape during collisions on the field. These helmest were more comfortable with padding to cushion the head during impact. There were also plastic face masks and a chin strap included, protecting more of the head.
+        This year, the <a href="http://en.wikipedia.org/wiki/Riddell" target="_blank">Ridell Company</a> based in Chicago, Illinois started making helmets out of plastic because it felt that it would be safer, lighter, stronger and more long lasting than leather. Plastic held its shape during collisions on the field. These helmest were more comfortable with padding to cushion the head during impact. There were also plastic face masks and a chin strap included, protecting more of the head.
       </p>
     </div>
     <div class="time-container">
       <h2>1940s - NOW</h2>
       <img src="images/helmetnow.png" class="timeline-icon">
       <p class="timeline-info">
-        In the 1940s, the NFL required helmets on the field and almost every professional football player wore a plastic helmet by the 1950s. The last player to play without a helmet was <a href="http://www.cbssports.com/nfl/eye-on-football/24366564/remember-when-dick-plasman-was-last-player-to-forgo-a-helmet">Dick Plasman</a>, a running back for the Chicago Bears, in the 1940 NFL Championship game between the Bears and the Washington Redskins. Now, helmets have updated shock absorbers, padding, guards and pieces to protect the player from skull and brain damage.       
+        In the 1940s, the NFL required helmets on the field and almost every professional football player wore a plastic helmet by the 1950s. The last player to play without a helmet was <a href="http://www.cbssports.com/nfl/eye-on-football/24366564/remember-when-dick-plasman-was-last-player-to-forgo-a-helmet" target="_blank">Dick Plasman</a>, a running back for the Chicago Bears, in the 1940 NFL Championship game between the Bears and the Washington Redskins. Now, helmets have updated shock absorbers, padding, guards and pieces to protect the player from skull and brain damage.       
       </p>
     </div>
+    <div class="hide entypo-cancel-squared"></div>
   </div>
+
+  <footer>
+    <p id="copyright"> &copy; 2014 ASHLEY WU</p>
+  <footer>
+
 
 </body>
 
